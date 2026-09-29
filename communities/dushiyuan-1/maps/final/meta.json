@@ -1,21 +1,27 @@
 {
   "communityId": "dushiyuan-1",
   "status": "final",
-  "description": "Current local-first human-confirmed editable Gaode screenshot binary map",
+  "description": "Current human-confirmed editable Gaode road map with building entrance labels",
   "source": "../../raw_inputs/source.jpeg",
   "map": "map.png",
   "annotations": "annotations.json",
-  "editorFormat": "gaode-binary-map-editor-v2",
-  "width": 2113,
-  "height": 1521,
+  "editorFormat": "gaode-binary-map-editor-v6",
+  "width": 2192,
+  "height": 1642,
   "sourceWidth": 2192,
   "sourceHeight": 1642,
-  "crop": {
-    "x": 18,
-    "y": 0,
-    "width": 2113,
-    "height": 1521
+  "crop": null,
+  "colorMode": "grayscale-0-192-255",
+  "nav2Ready": false,
+  "palette": {
+    "obstacle": 0,
+    "road": 192,
+    "background": 255
   },
-  "colorMode": "binary-0-255",
-  "nav2Ready": false
+  "roadStyle": {
+    "color": 192,
+    "extraWidthPx": 2
+  },
+  "entranceCount": 11,
+  "exportedAt": "2026-09-29T12:13:28.586Z"
 }
